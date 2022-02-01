@@ -105,7 +105,7 @@ public class MainManager : MonoBehaviour
     }
     public string BestScoreText()
     {
-        string bestScoreText = "Best score : " + LoadBestScoreName() + " : " + LoadBestScore();
+        string bestScoreText = "Best score: " + LoadBestScoreName() + " : " + LoadBestScore();
         return bestScoreText;
     }
 }
